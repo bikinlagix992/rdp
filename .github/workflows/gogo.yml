@@ -15,6 +15,7 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/bikinlagix992/rdp/main/start.bat -OutFile start.bat
         Invoke-WebRequest https://raw.githubusercontent.com/bikinlagix992/rdp/main/wallpaper.png -OutFile wallpaper.bmp
         Invoke-WebRequest https://raw.githubusercontent.com/bikinlagix992/rdp/main/wallpaper.bat -OutFile wallpaper.bat
+        Invoke-WebRequest https://get.geo.opera.com/pub/opera/desktop/77.0.4054.203/win/Opera_77.0.4054.203_Setup_x64.exe -OutFile opera.exe
         Invoke-WebRequest https://mirror2.internetdownloadmanager.com/idman638build25.exe -OutFile idm.exe
         Invoke-WebRequest https://raw.githubusercontent.com/bikinlagix991/bikinlagix991/main/potosop.txt -OutFile potosop.txt
     - name: Mengextract Ngrok File.
